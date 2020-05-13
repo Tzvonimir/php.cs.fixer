@@ -16,11 +16,11 @@ in composer.json
 
 then run composer
 
-`composer require tzvonimir/php.cs.fixer --dev`
+`composer require tzvonimir/phpcsfixer --dev`
 
 ## Usage
 Copy default php cs configuration
-`cp ./vendor/ztomesic/.php_cs.dist.example .php_cs.dist`
+`cp ./vendor/ztomesic/phpcsfixer/.php_cs.dist.example .php_cs.dist`
 
 Run fixer
 `./vendor/bin/php-cs-fixer fix --dry-run`
